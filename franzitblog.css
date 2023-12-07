@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Courier New, monospace;
+    padding: 0;
+}
+#background-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  filter: brightness(35%) contrast(90%);
+}
+h1, p{
+    color: white;
+}
+header {
+    
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.9em;
+    margin-left: 20px;
+    font-family: Courier New, monospace;
+}
+
+nav ul {
+    list-style: none;
+    margin-right: 50px;
+    display: flex;
+    gap: 40px;
+}
+
+nav a {
+    text-decoration: none;
+     padding: 5px 10px;
+    font-family: Courier New, monospace;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: bold;
+    
+}
+nav a:hover{
+    background-color:black;
+}
+
+.main-content {
+    padding: 20px;
+}
